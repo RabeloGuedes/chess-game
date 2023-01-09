@@ -1,9 +1,5 @@
 import './Board.css';
-
-interface CellInterface {
-	position: string;
-	color: string;
-}
+import { CellInterface } from '../../interfaces/CellInterface/CellInterface';
 
 export default function Board() {
 	const boardColumns = [
